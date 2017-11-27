@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Ankur Singh (http://ankursingh.me)">
-    <link rel="shortcut icon" href="favicon.png
-      "date": "01/06/2015",">
 
     <title class="title"></title>
 
@@ -24,18 +21,20 @@
     <script src="assets/js/modernizr.js"></script>
     <![endif]-->
   </head>
+  <style type="text/css">
+    .tilt {
+      width: 150px;
+      height: 150px;
+      max-height:150px;
+      overflow: hidden;
+      margin: auto;
+    }
+    .tilt > img {
+      width: 150px;
+    }
+  </style>
 
   <body>
-    <div id="loading">
-      <div id="loading-center">
-        <div id="loading-center-absolute">
-          <div class="object" id="object_four"></div>
-          <div class="object" id="object_three"></div>
-          <div class="object" id="object_two"></div>
-          <div class="object" id="object_one"></div>
-        </div>
-      </div>
-    </div>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -47,7 +46,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand title" href="index.html"></a>
+          <a class="navbar-brand sub_title" href="index.html"></a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -62,96 +61,106 @@
       </div>
     </div>
 
-  <!-- *****************************************************************************************************************
-   HEADERWRAP
-   ***************************************************************************************************************** -->
-  <div id="headerwrap">
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-lg-offset-1" id="text1">
-          <h3 class="meta_title"></h3>
-          <h1 class="title"><h1>
-          <h5 class="body"></h5>
-        </div>
-        <div class="col-lg-4 news">
-          <div class="news-inner">
-          <a class="url">
-            <h3 class="title"></h3>
-          </a>
-          </div>
-        </div>
-      </div><!-- /row -->
-      </div> <!-- /container -->
-  </div><!-- /headerwrap -->
 
   <!-- *****************************************************************************************************************
    TEAM MEMBERS
    ***************************************************************************************************************** -->
-
-   <div class="container mtb">
-    <div class="row centered">
-      <h2 class="mb">Faculty</h2>
-      <div class="faculty">
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <div class="he-wrap tpl6">
-        <img class="image" alt="" style="height: 200px">
-        </div><!-- he wrap -->
-        <a class="url ctitle"><h4 class="name"></h4>
-        <h5 class="ctitle title"></h5>
-        </a>
-        <p class="description"></p>
-        <div class="hline"></div>
-        <div class="lab"></div>
-      </div><! --/col-lg-3 -->
-      </div>
-      
-    </div><! --/row -->
-    <hr style="margin: 40px 0px 40px 0px">
-    <div class="row" >
-      <div class="col-md-6 col-md-offset-3" style="text-align: center">
-        <h2 style="padding-bottom: 40px;">Students</h2>
-        <ul class="students">
-          <div class="student">
-            <p class="name"></p>
-          </div>
-        </ul>
-      </div>
+  <div class="container mt">
+    <div class="page-header">
+      <h2>Faculty</h2>
     </div>
-   </div><! --/container -->
-   
+    <div class="row">
+        <div class="col-lg-3 centered">
+            <div class="tilt img-circle">
+                <img src="assets/img/team/jimwang.jpg">
+            </div>
+            <a href="http://thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html"><h4>Jianmin Wang</h4></a>
+            <p>Professor</p>
+        </div>
+        <div class="col-lg-3 centered">
+            <div class="tilt">
+                <img src="assets/img/team/PhilipSYu.jpg" class="img-circle">
+            </div>
+            <a href="https://www.cs.uic.edu/PSYu/"><h4>Philip S. Yu</h4></a>
+            <p>Professor</p>
+        </div>
+        <div class="col-lg-3 centered">
+            <div class="tilt img-circle">
+                <img src="assets/img/team/mlong.png">
+            </div>
+            <h4><a href="http://ise.thss.tsinghua.edu.cn/~mlong">Mingsheng Long</a></h4>
+            <p>Assistant Professor</p>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="page-header">
+      <h2>Graduate Students</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 centered">
+            <div class="tilt img-circle">
+                <img src="assets/img/team/default.png">
+            </div>
+            <a href="http://thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html"><h4>Yue Cao</h4></a>
+            <p></p>
+        </div>
+        <div class="col-lg-3 centered">
+            <div class="tilt">
+                <img src="assets/img/team/default.png" class="img-circle">
+            </div>
+            <a href="https://www.cs.uic.edu/PSYu/"><h4>Philip S. Yu</h4></a>
+            <p></p>
+        </div>
+        <div class="col-lg-3 centered">
+            <div class="tilt img-circle">
+                <img src="assets/img/team/default.png">
+            </div>
+            <h4><a href="http://ise.thss.tsinghua.edu.cn/~mlong">Mingsheng Long</a></h4>
+            <p></p>
+        </div>
+    </div>
+  </div>
+
+
+<div style="background: #ebebeb none repeat scroll 0 0;">
+    <div class="container">
+        <h2>Alumni</h2>
+        <ul class="col-lg-8 col-lg-offset-1">
+            <li>Jianqiu Ji, PhD, (graduated in 2015, now Postdoc at Tsinghua)</li>
+            <li><a href="http://ml.cs.tsinghua.edu.cn/~lingxi/Home.html">Lingxi Xie</a>, PhD, (graduated in 2015, now Postdoc at Johns Hopkins U.)</li>
+            <li>Minjie Xu, PhD, (graduated in 2015, now at Bloomberg)</li>
+            <li>Xiaolu Zhang, PhD, (graduated in 2015, now at IBM)</li>
+            <li>Arnab Bhadury, Master (graduated in 2015, English Class, now at Flipboard)</li>
+            <li>Tianlin Shi, Undergraduate (graduated in 2015, now at Stanford)</li>
+            <li>Da Tang, Undergraduate (graduated in 2015, now at Columbia U.)</li>
+            <li>Aonan Zhang, Master (graduated in 2014, now at Columbia U.)</li>
+            <li>Yining Wang, Undergraduate (graduated in 2014, now at CMU)</li>
+            <li>Zi Wang, Undergraduate (graduated in 2014, now at MIT)</li>
+            <li>Chengtao Li, Undergraduate (graduated in 2014, now at MIT)</li>
+            <li>Yang Gao, Undergraduate (graduated in 2014, now at UC Berkeley)</li>
+            <li>Hugh Perkins, Master (graduated in 2013, English Class, now at Standard Chartered bank)</li>
+            <li>Shike Mei, Undergraduate (graduated in 2013, now at U. of Wisconsin-Madison)</li>
+            <li>Xun Zheng, Undergraduate (graduated in 2013, now at CMU)</li>
+            <li>Fei Xia, Undergraduate (graduated in 2013, join CMU for Master study)</li>
+            <li>Suqi Liu, Undergraduate (graduated in 2013, join UCSD for PhD study)</li>
+            <li>Chi Jin, Undergraduate (graduated in 2013, join UC, Berkeley for PhD study)</li>
+            <li>Haoruo Peng, Undergraduate (graduated in 2013, join UIUC for PhD study)</li>
+            <li>Kuan Liu, Undergraduate (graduated in 2012, join USC for Ph.D study)</li>
+        </ul>
+    </div>
+</div>
+
 
   <!-- *****************************************************************************************************************
    FOOTER
    ***************************************************************************************************************** -->
    <div id="footerwrap">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <h4>About</h4>
-          <div class="hline-w"></div>
-          <p class="description"></p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Social Links</h4>
-          <div class="hline-w"></div>
-          <p>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-tumblr"></i></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Location</h4>
-          <div class="hline-w"></div>
-          <h3 style="color: #bfc9d3">
-            <a href="http://iiitd.ac.in" >IIIT Delhi</a><br/>
-            Okhla Phase 3,<br/>
-            New Delhi, India.<br/>
-          </h3>
-        </div>
-
+      <div class="row"> 
+        <p class="bottom-text"></p>
       </div><! --/row -->
     </div><! --/container -->
    </div><! --/footerwrap -->
@@ -159,9 +168,8 @@
     <!-- Core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>!window.jQuery && document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/transparency.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/custom.js"></script>

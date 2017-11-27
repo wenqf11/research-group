@@ -100,6 +100,6 @@
         pauseOnHover: false
       }
     );
-    $("#loading").fadeOut(500);
+    //$("#loading").fadeOut(500);
   });
 })(jQuery);
