@@ -36,6 +36,7 @@ body {
 	color: #384452;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	font-size: 16px;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,7 +125,8 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	/*background-color: #384452;*/
+	background-color: #5c307d;
 	border-color: transparent;
 }
 
@@ -205,11 +207,13 @@ a:focus {
 #footerwrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: #384452;
+	/*background: #384452;*/
+	background-color: #5c307d;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	/*color: #bfc9d3;*/
+	color: white;
 }
 
 #footerwrap h4 {

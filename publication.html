@@ -20,10 +20,61 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <![endif]-->
+    <style type="text/css">
+      .article-author{
+        display: block;
+        font-size: 14px;
+      }
+      .article-publisher{
+        display: block;
+        font-size: 14px;
+      }
+      .article-title{
+        font-size: 16px;
+      }
+      .article-resource{
+        font-size: 14px;
+      }
+
+
+      ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+      }
+      ul.nav-tabs li{
+          margin: 0;
+          border-top: 1px solid #ddd;
+      }
+      ul.nav-tabs li:first-child{
+          border-top: none;
+      }
+      ul.nav-tabs li a{
+          margin: 0;
+          padding: 8px 16px;
+          border-radius: 0;
+      }
+      ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+          color: #fff;
+          background: #0088cc;
+          border: 1px solid #0088cc;
+      }
+      ul.nav-tabs li:first-child a{
+          border-radius: 4px 4px 0 0;
+      }
+      ul.nav-tabs li:last-child a{
+          border-radius: 0 0 4px 4px;
+      }
+      ul.nav-tabs.affix{
+          top: 80px; 
+      }
+    </style>
   </head>
 
 
-  <body>
+  <body data-spy="scroll" data-target="#myScrollspy">
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -51,43 +102,193 @@
     </div>
 
   <!-- *****************************************************************************************************************
-   HEADERWRAP
-   ***************************************************************************************************************** -->
-  <div id="headerwrap">
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-lg-offset-1" id="text1">
-          <h1 class="title"><h1>
-        </div>
-        <div class="col-lg-4 news">
-          <div class="news-inner">
-          <a class="url">
-            <h3 class="title"></h3>
-          </a>
-          </div>
-        </div>
-      </div><!-- /row -->
-      </div> <!-- /container -->
-  </div><!-- /headerwrap -->
-
-  <!-- *****************************************************************************************************************
    Publications
    ***************************************************************************************************************** -->
-   <div id="publ">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-md-12">
-          <h1> PUBLICATIONS </h1>
-          <div class="publications">
-            <div class="publication">
-              <a class="url"><p class="title"></p></a>
-            </div>
-          </div>
-
-        </div>
+  <div class="container mt">
+    <div class="page-header">
+      <h2> Publications </h2>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="myScrollspy">
+        <ul class="nav nav-tabs nav-stacked centered" data-spy="affix" data-offset-top="120">
+            <li class="active"><a href="#year2018">2018</a></li>
+            <li><a href="#year2017">2017</a></li>
+            <li><a href="#year2016">2016</a></li>
+            <li><a href="#year2015">2015</a></li>
+            <li><a href="#year2014">2014</a></li>
+        </ul> 
       </div>
-    </div><! --/container -->
-   </div><! --/publications -->
+      <div class="col-md-10">
+
+        <div class="row" id="year2018">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="article-title">Unsupervised Domain Adaptation with Distribution Matching Machines
+            </h4>
+            <span class="article-author">
+              Yue Cao, Mingsheng Long, Jianmin Wang
+            </span>
+            <span class="article-publisher">
+              <i>AAAI Conference on Artificial Intelligence (AAAI), 2018</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="article-title">PredRNN: Recurrent Neural Networks for Predictive Learning using Spatiotemporal LSTMs
+            </h4>
+            <span class="article-author">
+              Yunbo Wang, Mingsheng Long, Jianmin Wang, Zhifeng Gao, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>Neural Information Processing Systems (NIPS), 2017</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row" id="year2017">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row" id="year2016">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="article-title">Deep Learning of Transferable Representation for Scalable Domain Adaptation
+            </h4>
+            <span class="article-author">
+              Mingsheng Long, Jianmin Wang, Yue Cao, Jiaguang Sun, Philip S. Yu
+            </span>
+            <span class="article-publisher">
+              <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 28(8):2027-2040, 2016</i>
+            </span>
+
+            <span class="article-resource">
+              [<a href="">PDF</a>] 
+              [<a href="">Slides</a>]
+              [<a href="">Code</a>]
+            </span>
+          </div>
+        </div>
+        <hr>
+
+      </div>
+    </div>
+  </div>
 
 
   <!-- *****************************************************************************************************************
@@ -100,15 +301,16 @@
     <div class="container">
       <div class="row"> 
         <p class="bottom-text"></p>
-      </div><! --/row -->
-    </div><! --/container -->
-   </div><! --/footerwrap -->
+      </div>
+    </div>
+   </div>
 
     <!-- Core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery-1.11.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/affix.js"></script>
     <script src="assets/js/transparency.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/custom.js"></script>
