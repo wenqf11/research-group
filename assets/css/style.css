@@ -125,8 +125,7 @@ a:focus {
 }
 
 .navbar-default {
-	/*background-color: #384452;*/
-	background-color: #5c307d;
+	background-color: #384452;
 	border-color: transparent;
 }
 
@@ -207,8 +206,7 @@ a:focus {
 #footerwrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	/*background: #384452;*/
-	background-color: #5c307d;
+	background: #384452;
 }
 
 #footerwrap p {
