@@ -164,6 +164,10 @@ a:focus {
 }
 
 .mt {
+	margin-top: 80px;
+}
+
+.mtop{
 	margin-top: 125px;
 }
 
